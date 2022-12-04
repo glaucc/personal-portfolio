@@ -9,38 +9,38 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const projects = [
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-  ];
+  // const projects = [
+  //   {
+  //     title: "Business Startup",
+  //     description: "Design & Development",
+  //     imgUrl: projImg1,
+  //   },
+  //   {
+  //     title: "Business Startup",
+  //     description: "Design & Development",
+  //     imgUrl: projImg2,
+  //   },
+  //   {
+  //     title: "Business Startup",
+  //     description: "Design & Development",
+  //     imgUrl: projImg3,
+  //   },
+  //   {
+  //     title: "Business Startup",
+  //     description: "Design & Development",
+  //     imgUrl: projImg1,
+  //   },
+  //   {
+  //     title: "Business Startup",
+  //     description: "Design & Development",
+  //     imgUrl: projImg2,
+  //   },
+  //   {
+  //     title: "Business Startup",
+  //     description: "Design & Development",
+  //     imgUrl: projImg3,
+  //   },
+  // ];
 
   return (
     <section className="project" id="project">
@@ -51,7 +51,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>The things I want to work on my spare time ✨¯\_( ͡❛ ͜ʖ ͡❛)_/¯✨</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -66,7 +66,8 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <Row>
+                      <p>Pure skill, baby</p>
+                      {/* <Row>
                         {
                           projects.map((project, index) => {
                             return (
@@ -77,13 +78,13 @@ export const Projects = () => {
                             )
                           })
                         }
-                      </Row>
+                      </Row> */}
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                      <p>I've done something wrong.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>You've unlocked a <a className="sec" href="https://youtu.be/dQw4w9WgXcQ" target="_blank">secret</a>!</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

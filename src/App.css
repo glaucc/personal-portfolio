@@ -616,3 +616,35 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+/* #button-tab {
+  button
+} */
+
+.sec {
+  text-decoration: none !important;
+  color: red !important;
+}
+
+.man-link {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+@media screen and (max-width: 600px) {
+  .new-email-bx button {
+    margin-right: 100px;
+  } 
+}
+
+@media screen and (max-width: 600px) {
+  .new-email-bx {
+    min-width: 240px;
+    margin-right: 20px !important;
+  } 
+}
+/* @media screen and (max-width: 600px) {
+  .new-email-bx {
+    margin: 400px !important;
+  } 
+} */
