@@ -20,7 +20,7 @@ export const Footer = () => {
               <a href="#"><img src={navIcon2} alt="Icon" /></a>
               <a href="#"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Copyright 2022 by Joseffron. All Rights Reserved</p>
+            <p>Copyright 2022 by <a href="https://sfferex.web.app/" rel="nofollow">Sferex Agency.</a> All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
