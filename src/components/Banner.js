@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Yusif =>`} <span className="txt-rotate" dataPeriod="1000" data-rotate='["Cybersecurity Analyst", "Boxer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Definition of Discipline as a man. Sharp focused soldier who thrives to achieve his goals.   ( つ•̀ω•́)つLET’S GO!🔥</p>
+                <h1>{`Hi. I'm Yusif =>`} <span className="txt-rotate" dataPeriod="1000" data-rotate='["Cybersecurity Analyst", "Boxer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Definition of Discipline as a man. Sharp focused soldier who thrives to achieve his goals.</p>
                   <button ><a className="man-link" href="#connect">Let’s Connect <ArrowRightCircle size={25} /></a></button>
               </div>}
             </TrackVisibility>

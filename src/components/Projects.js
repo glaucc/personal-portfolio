@@ -51,7 +51,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>The things I want to work on my spare time ✨¯\_( ͡❛ ͜ʖ ͡❛)_/¯✨</p>
+                <p>The things I want to work on my spare time</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -66,7 +66,7 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <p>Pure skill, baby</p>
+                      <p>Nothing for now</p>
                       {/* <Row>
                         {
                           projects.map((project, index) => {
@@ -81,10 +81,10 @@ export const Projects = () => {
                       </Row> */}
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>I've done something wrong.</p>
+                      <p>Still nothing.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>You've unlocked a <a className="sec" href="https://youtu.be/dQw4w9WgXcQ" target="_blank">secret</a>!</p>
+                      <p>Here's a <a className="sec" href="https://youtu.be/dQw4w9WgXcQ" target="_blank">present</a> for you.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
